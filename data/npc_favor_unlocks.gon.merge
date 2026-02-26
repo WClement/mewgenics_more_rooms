@@ -1,0 +1,72 @@
+Frank {
+	house_upgrade_attic {
+		house_upgrade SmallHouse_Attic
+		favor 1
+
+		reward_text "FAVOR_FRANK_ATTIC"
+	}
+
+	house_upgrade_mediumhouse {
+		house_upgrade MediumHouse
+		house_upgrade MediumHouse_SmallRoom
+		favor 25
+
+		reward_text "FAVOR_FRANK_ROOM"
+	}
+
+	house_upgrade_largehouse {
+		house_upgrade LargeHouse
+		house_upgrade LargeHouse_Floor2Large
+		favor 50
+
+		reward_text "FAVOR_FRANK_ROOM"
+	}
+
+	house_upgrade_4throom {
+		house_upgrade LargeHouse_Floor2Small
+		favor 1
+
+		reward_text "FAVOR_FRANK_ROOM"
+	}
+
+	house_upgrade_basement {
+		house_upgrade BasementUpgrade
+		favor 1
+	}
+
+	house_upgrade_basement2 {
+		house_upgrade BasementUpgrade2
+		favor 1
+	}
+
+	house_upgrade_basement3 {
+		house_upgrade BasementUpgrade3
+		favor 1
+	}
+
+	house_upgrade_basement4 {
+		house_upgrade BasementUpgrade4
+		favor 1
+	}
+
+	house_upgrade_basement5 {
+		house_upgrade BasementUpgrade5
+		favor 1
+	}
+
+	frank_max_intro {
+		favor 10
+		gift_item_from_pool parasites
+
+		reward_text "FAVOR_FRANK_PARASITE"
+		level_display max
+	}
+	frank_max_repeating {
+		favor 10
+		repeat infinite
+		gift_item_from_pool parasites
+
+		reward_text "FAVOR_FRANK_PARASITE"
+		level_display max
+	}
+}
