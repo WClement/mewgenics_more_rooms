@@ -305,14 +305,14 @@ houses {
 			Floor2_Small [1, 9]
 			Floor2_Large [18, 9]
 			
-			// Basements are all 5 tall, 1 extra tile for spacing
+			// Basements are all 5 tall
 			Basement0 [1 17]
-			Basement1 [1 23]
-			Basement2 [1 29]
-			Basement3 [1 35]
-			Basement4 [1 41]
+			Basement1 [1 22]
+			Basement2 [1 27]
+			Basement3 [1 33]
+			Basement4 [1 39]
 
-			LargeAttic [0, 47]
+			LargeAttic [0, 45]
 
 			/*
 			Floor1_Large [1, 1]
