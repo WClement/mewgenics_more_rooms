@@ -9,6 +9,7 @@ NOTE: the house does not dynamically resize. Once you have house3 (three floors 
 - So far the game has saved cats and furniture in the rooms as normal
 
 todos and bugs:
+- only three basements were actually added from Frank. Might be an issue due to testing on an in progress save file.
 - roof of house is visually overlapping the first new "basement" room.
 - rooms have blank backgrounds.
 - "Depart!" sign button covers adventure box due to zooming out more.
